@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/content.css"></link>
+    <script rel="./js/content.js"></script>
+    <title><%= title %></title>
+</head>
+<body>
+    <div class="warp">
+        <span onclick="
+            window.location.href = (
+                window.location.href.split('\/\/')[0] + '\/\/' + window.location.host)"><<</span>
+    </div>
+    <div class="header">
+        <div class="board">
+            <div class="details">
+                <div class="title">
+                    <h1><%= title %></h1>
+                </div>
+                <hr style="margin-top: 3px;"></hr>
+                <div class="informations">
+                    <div>
+                        <span id="option">Writer: </span>
+                        <span id="sub-option"><%= writer %></span>
+                    </div>
+                    <div>
+                        <span id="option">CreatedAt: </span>
+                        <span id="sub-option"><%= createdAt %></span>
+                    </div>
+                </div>
+                <hr style="margin-top: 3px; all:unset;"><hr>
+                <div class="content"c>
+                    <%
+                        %> <span style="white-space: pre-line"><%= content %></span> %> <%
+                    %>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

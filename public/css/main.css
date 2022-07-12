@@ -1,0 +1,29 @@
+@import url("./newFont.css");
+
+* {
+    margin: 0;
+    font-family: nanum;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #353942;
+    overflow: auto;
+}
+
+.warp {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.warp > span {
+    font-size: 30px;
+    color: white;
+}
+
+.warp > span:hover {
+    color: rgb(215, 215, 215);
+    cursor: pointer;
+}

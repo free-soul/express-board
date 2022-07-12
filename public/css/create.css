@@ -1,0 +1,66 @@
+@import url("./main.css");
+
+.header > .header-write-menu {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header-write-menu > div {
+    padding-top: 50px;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: rgb(35 39 42);
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.input-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#long-content {
+    height: 200px;
+}
+
+#title {
+    font-size: 20px;
+    color: red;
+}
+
+#subtitle {
+    font-size: 18px;
+    color: white;
+}
+
+.description {
+    padding-bottom: 12px;
+}
+
+.sumit-buttons {
+    padding-top: 30px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(88 101 242);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+@import url("./newFont.css");
+@import url("./main.css");
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page {
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.sub-page {
+    padding-top: 70px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+#hyperlink {
+    color: rgb(153, 153, 255);
+}
+
+#hyperlink:hover {
+    cursor: pointer;
+}

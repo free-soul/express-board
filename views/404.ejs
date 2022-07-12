@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/404.css"></link>
+    <script src="./js/404.js"></script>
+    <title>404</title>
+</head>
+<body>
+    <div class="warp">
+        <span onclick="
+            window.location.href = (
+                window.location.href.split('\/\/')[0] + '\/\/' + window.location.host)"><<</span>
+    </div>
+    <div class="header">
+        <div class="main-page">
+            <div class="sub-page">
+                <div class="title">
+                    <h1>404</h1>
+                </div>
+                <div class="subtitle">
+                    <span>잘못된 링크를 사용하셨습니다. <span id="hyperlink" onclick="redirect()"><U>이 링크</U></span>를 클릭해 메인 페이지로 돌아가주세요.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

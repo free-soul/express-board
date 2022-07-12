@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/create.css"></link>
+    <script src="./js/createBoard.js"></script>
+    <title>Write</title>
+</head>
+<body>
+    <div class="warp">
+        <span onclick="
+            window.location.href = (
+                window.location.href.split('\/\/')[0] + '\/\/' + window.location.host)"><<</span>
+    </div>
+    <div class="header">
+        <div class="header-write-menu">
+            <div class="username">
+                <div class="description">
+                    <span id="title">*</span>
+                    <span id="subtitle">Please enter your username.</span>
+                </div>
+                <div class="input-flexbox">
+                    <input spellcheck="false" type=text" id="submit-username"></input>
+                </div>
+            </div>
+            <div class="title">
+                <div class="description">
+                    <span id="title">*</span>
+                    <span id="subtitle">Please enter title.</span>
+                </div>
+                <div class="input-flexbox">
+                    <input spellcheck="false" type="text" id="submit-title" value=""></input>
+                </div>
+            </div>
+            <div class="paper">
+                <div class="description">
+                    <span id="title">*</span>
+                    <span id="subtitle">Please enter in the blanks below.</span>
+                </div>
+                <div class="input-flexbox">
+                    <textarea id="long-content" type="text" spellcheck="false"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="sumit-buttons">
+            <button onclick="create()">Add Post</button>
+        </div>
+    </div>
+</body>
+</html>
